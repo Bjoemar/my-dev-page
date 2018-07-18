@@ -1,0 +1,340 @@
+h3	 {
+	font-size: 20px;
+	font-family: 'IBM Plex Mono', monospace;
+	opacity: 0.8;
+}
+
+h2	 {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 30px;
+	opacity: 0.8;
+}
+hr {
+	background-color: gray;
+}
+
+.logo-pic {
+	background-image: url(../images/logo/final-logo-white.png);
+	height: 100px;
+	width: 120px;
+
+	background-position: center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+
+.banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../images/resume-picture/resume-banner.jpeg);
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.logo-pic {
+	background-image: url(../images/logo/final-logo-white.png);
+	height: 100px;
+	width: 120px;
+
+	background-position: center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#my-nav {
+	padding:30px;
+	font-family: 'Source Code Pro', monospace;
+
+
+}
+
+#my-nav a {
+	margin-right: 40px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+
+ .banner h1 {
+ 	color: white;
+ 	font-size: 70px;
+ 	font-family: 'Coda Caption', sans-serif;
+ 	text-align: center;
+ }
+
+  .banner p {
+  	text-align: center;
+  	color: white;
+  	font-family: 'Kaushan Script', cursive;
+  	padding-top: 150px;
+  }
+
+  /*end banner style*/
+
+.greet {
+	padding: 50px;
+	padding-bottom: 0px;
+	
+
+}
+
+
+.res-pic {
+	background-image: url(../images/resume-picture/resume.jpg);
+	height: 300px;
+	margin: auto;
+	width: 30%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid gray;
+	border-radius: 50px;
+
+
+} 	
+
+
+.greet h2 {
+	font-size: 60px;
+}
+
+.greet p {
+	font-size: 20px;
+}
+.fb {
+	background-image: url(../images/logo/fb-logo.jpg);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	
+}
+.ig {
+	background-image: url(../images/logo/insta-logo.jpg);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	
+}
+.gplus {
+	background-image: url(../images/logo/g-log.png);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	
+}
+.li {
+	background-image: url(../images/logo/link-logo.jpg);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+
+}
+.my-media {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#pic-holder {
+	text-align: center;
+}
+
+#skill-title {
+
+
+}
+
+#skill-holder {
+	padding-top: 50px;
+
+}
+
+.tech {
+
+}
+.tech ul{
+	display: inline-block;
+
+}
+ /*end resume style*/
+
+
+
+
+
+
+
+
+	.sub-contact {
+		background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/Contact-bg.jpeg); 
+		height: 400px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.sub-contact p{
+		color: white;
+		text-align: center;
+		padding-top: 50px;
+		font-family: 'Kaushan Script', cursive;
+	
+
+	}
+	.sub-contact h2 {
+		color: white;
+		font-size: 70px;
+		text-align: center;
+		font-family: 'Coda Caption', sans-serif;
+	}
+	.contact-button-holder {
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.contact-button-holder button{
+	height: 50px;
+
+}
+
+/*end contact code style*/
+
+.footer {
+	background-color: rgba(38, 38, 38, 0.97);
+	height: 300px;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+}
+.footer a {
+	color: #f5f5f5;
+	margin: 10px;
+	font-family: 'Hind', sans-serif;
+	opacity: 0.8;
+
+}
+.fot-nav {
+	text-align: center;
+	padding-top: 50px;
+}
+.creator {
+	width: 100%;
+	text-align: center; 
+	color: white;
+	opacity: 0.2;
+}
+
+.soc-med {
+	text-align: center;
+}
+.soc-med .logos{
+ display: inline-block;
+ opacity: 0.7;
+ margin: 10px;
+
+}
+
+.soc-med .fb {
+	background-image: url(../images/logo/fb-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .instagram {
+	background-image: url(../images/logo/insta-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .link-in {
+	background-image: url(../images/logo/link-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .google {
+	background-image: url(../images/logo/g-log.png);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+/*fot mobile*/
+@media (max-width: 640px){ 
+
+	.banner p {
+			padding: 20px;
+		}
+
+
+
+	.sub-contact {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/Contact-bg.jpeg); 
+	height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	}
+	.sub-contact h2 {
+		font-size: 40px;
+	}
+
+	.res-pic {
+		height: 200px;
+		width: 100%;
+	}
+
+	.greet h2 {
+		font-size: 30px;
+
+	}
+	.my-media {
+		height: 30px;
+		width: 30px;
+	}
+
+	 	.footer {
+		height: 450px;
+	}
+}
+
+
+
+/*for tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+		.sub-contact{
+			height: 600px;
+		}
+
+		.banner p {
+			padding: 20px;
+		}
+		.res-pic {
+			height: 200px;
+		}
+	}

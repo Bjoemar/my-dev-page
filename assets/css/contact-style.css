@@ -1,0 +1,231 @@
+.main-contact {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../images/contact-img/contact-banner.jpeg);
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.logo-pic {
+	background-image: url(../images/logo/final-logo-white.png);
+	height: 100px;
+	width: 120px;
+
+	background-position: center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+
+#my-nav {
+	padding:30px;
+	font-family: 'Source Code Pro', monospace;
+
+
+}
+
+#my-nav a {
+	margin-right: 40px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+
+.main-contact p {
+	padding-top: 200px;/* ajust for the mobile and tablet layout*/
+		font-family: 'Kaushan Script', cursive;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+}
+
+.main-contact h1 {
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	font-family: 'Coda Caption', sans-serif;
+}
+
+
+/*end main contact style*/
+
+
+
+
+#info-holder {
+	padding:100px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#sub-info-holder {
+	margin: auto;
+	border: 1px solid gray;
+	padding:50px;
+}
+
+#info-holder input {
+	width: 98%;
+	margin-top:10px;
+
+	
+}
+#info-holder label {
+	padding-top: 20px;
+}
+
+#info-holder #contact-email {
+	width: 98%;
+}
+
+.contact-button-holder {
+	text-align: center;
+
+}
+#contact-button {
+	width: 50%;
+	margin-top: 20px;
+
+}
+/*end info style*/
+
+.maps {
+	background-image: url(../images/maps.jpg);
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*end maps style*/
+
+.footer {
+	background-color: rgba(38, 38, 38, 0.97);
+	height: 300px;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+}
+.footer a {
+	color: #f5f5f5;
+	margin: 10px;
+	font-family: 'Hind', sans-serif;
+	opacity: 0.8;
+
+}
+.fot-nav {
+	text-align: center;
+	padding-top: 50px;
+}
+.creator {
+	width: 100%;
+	text-align: center; 
+	color: white;
+	opacity: 0.2;
+}
+
+.soc-med {
+	text-align: center;
+}
+.soc-med .logos{
+ display: inline-block;
+ opacity: 0.7;
+ margin: 10px;
+
+}
+
+.soc-med .fb {
+	background-image: url(../images/logo/fb-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .instagram {
+	background-image: url(../images/logo/insta-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .link-in {
+	background-image: url(../images/logo/link-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .google {
+	background-image: url(../images/logo/g-log.png);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+/*end style for footer*/
+
+/*for mobile*/
+@media (max-width: 640px){
+
+	.main-contact h1 {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-family: 'Coda Caption', sans-serif;
+}
+	.main-contact p {
+	padding-top: 100px;/* ajust for the mobile and tablet layout*/
+
+
+
+}
+
+	#info-holder {
+	padding:20px;
+}
+
+
+	#sub-info-holder {
+	margin: auto;
+	border: 1px solid gray;
+	padding:20px;
+}
+
+ 	.footer {
+		height: 450px;
+	}
+
+	#contact-button {
+	width: 60%;
+	margin-top: 20px;
+
+}
+
+
+}
+
+
+
+/*for tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.main-contact {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../images/contact-img/contact-banner.jpeg);
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+}

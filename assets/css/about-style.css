@@ -1,0 +1,291 @@
+.about-banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/about-img/about-banner.jpeg);
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.logo-pic {
+	background-image: url(../images/logo/final-logo-white.png);
+	height: 100px;
+	width: 120px;
+
+	background-position: center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#my-nav {
+	padding:30px;
+	font-family: 'Source Code Pro', monospace;
+
+
+}
+
+#my-nav a {
+	margin-right: 40px;
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+
+#title-holder {
+	padding-top: 150px;
+}
+
+.about-banner p {
+	color: white;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+.about-banner h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 70px;
+}
+
+/*end banner  style*/
+
+
+#fun-fact {
+	text-align: center;
+	background-color: rgba(38, 38, 38, 0.09);
+	padding: 50px;
+}
+
+#fun-fact p {
+	font-size: 30px;
+}
+
+/*end fun fact style*/
+
+#img-his-holder {
+	padding: 70px;
+}
+
+
+
+.img1 {
+	background-image: url(../images/about-img/about-picture/band3.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.img2 {
+	background-image:url(../images/about-img/about-picture/band2.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.img3 {
+	background-image: url(../images/about-img/about-picture/dance3.jpg);
+	height:200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.img4 {
+	background-image: url(../images/about-img/about-picture/dance1.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.img5 {
+	background-image:url(../images/about-img/about-picture/camera-man.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.img6 {
+	background-image: url(../images/about-img/about-picture/band1.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.img7 {
+	background-image: url(../images/about-img/about-picture/dance2.jpg);
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/*end for img style*/
+
+#deep-content {
+ padding: 50px;
+
+}
+
+#deep-content h2 {
+	font-family: 'Lora', serif;
+	opacity: 0.9;
+	
+}
+
+#deep-content p {
+	opacity: 0.7;
+	
+}
+/*end deep content*/
+
+.sec-goto-res {
+	background-color: rgba(38, 38, 38, 0.09);
+	height: 100%;
+	padding: 50px;
+	text-align: center;
+}
+
+.sec-goto-res h2 {
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.sec-goto-res p {
+	opacity: 0.7;
+	width: 30%;
+	margin: auto;
+}
+
+.sec-goto-res button {
+	margin-top: 20px;
+	height: 50px;
+}
+
+/*end section goto resume*/
+
+.footer {
+	background-color: rgba(38, 38, 38, 0.97);
+	height: 300px;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+}
+.footer a {
+	color: #f5f5f5;
+	margin: 10px;
+	font-family: 'Hind', sans-serif;
+	opacity: 0.8;
+
+}
+.fot-nav {
+	text-align: center;
+	padding-top: 50px;
+}
+.creator {
+	width: 100%;
+	text-align: center; 
+	color: white;
+	opacity: 0.2;
+}
+
+.soc-med {
+	text-align: center;
+}
+.soc-med .logos{
+ display: inline-block;
+ opacity: 0.7;
+ margin: 10px;
+
+}
+
+.soc-med .fb {
+	background-image: url(../images/logo/fb-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .instagram {
+	background-image: url(../images/logo/insta-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .link-in {
+	background-image: url(../images/logo/link-logo.jpg);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.soc-med .google {
+	background-image: url(../images/logo/g-log.png);
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+@media (max-width: 640px){
+
+		.about-banner {
+		height: 500px;
+	}
+
+
+	#title-holder {
+	padding-top: 20px;
+	}
+
+		.about-banner h1 {
+
+		font-size: 40px;
+	}
+
+		.sec-goto-res p {
+		opacity: 0.7;
+		width: 100%;
+		margin: auto;
+
+	}
+
+		.sec-goto-res {
+		padding: 20px;
+	}
+
+	 	.footer {
+		height: 450px;
+	}
+
+		#fun-fact {
+		text-align: center;
+		background-color: rgba(38, 38, 38, 0.09);
+		padding: 10px;
+	}
+
+		#fun-fact p {
+		font-size: 20px;
+	}
+
+
+}
+
