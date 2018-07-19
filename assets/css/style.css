@@ -281,53 +281,8 @@ width: 30%;/* ajust this for mobile*/
 
 
 
-/*smartphones portrait*/
-@media(min-width: 320px) {
-
-		.sub-contact h2 {
-		font-size: 30px;
-	}
-
-		#banner-title h1 {
-	font-family: 'Coda Caption', sans-serif;
-	font-size: 30px;
-	color: white;
-	text-align: center;
-	}
-	#proj-holder {
-		padding: 10px;
-	text-align: center;
-	width: 100%;/* ajust this for mobile*/
-
-	}
-
-	.footer {
-		height: 500px;
-	}
-
-
-	#main-project-holder {
-		padding: 10px;
-	}
-
-	.proj-img {
-		width: 200px;
-		height: 200px;
-	}
-
-	#sub-about {
-	text-align: center;
-	padding-left: 0;
-	padding-right:0;
-	height: 100%;
-	background-color: rgba(38, 38, 38, 0.09);
-	}
-
-
-
-}
 /*for mobile*/
-@media (min-width: 640px){
+@media (max-width: 640px){
 
 
 	#banner-title h1 {
@@ -367,6 +322,9 @@ width: 30%;/* ajust this for mobile*/
 		height: 200px;
 		width: 200px;
 	}
+	.footer {
+		height: 300px;
+	} 
 
 
 	.footer p {
@@ -408,6 +366,6 @@ width: 100%;/* ajust this for mobile*/
 	}
 
 		.sub-contact{
-			height: 600px;
+			height: 400px;
 		}
 }
