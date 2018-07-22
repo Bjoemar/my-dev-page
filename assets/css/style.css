@@ -292,6 +292,11 @@ width: 30%;/* ajust this for mobile*/
 	text-align: center;
 	}
 
+	#sub-about p {
+		font-size: 20px;
+	}
+
+
 	#sub-about {
 	text-align: center;
 	padding-left: 0;
@@ -308,7 +313,7 @@ width: 30%;/* ajust this for mobile*/
 
 	.sub-contact {
 	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(../images/Contact-bg.jpeg); 
-	height: 600px;
+	height: 500px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -323,7 +328,7 @@ width: 30%;/* ajust this for mobile*/
 		width: 200px;
 	}
 	.footer {
-		height: 400px;
+		height: 350px;
 	} 
 
 
@@ -366,6 +371,6 @@ width: 100%;/* ajust this for mobile*/
 	}
 
 		.sub-contact{
-			height: 400px;
+			height: 550px;
 		}
 }
